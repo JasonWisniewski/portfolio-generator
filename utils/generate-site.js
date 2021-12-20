@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { reject } = require('lodash');
 
 const writeFile = fileContent => {
   return new Promise((resolve, reject) => {
